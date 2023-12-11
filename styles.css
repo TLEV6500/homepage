@@ -183,7 +183,7 @@ body {
     text-align: justify;
 }
 
-.skills ul {
+ol, ul {
     display: flex;
     flex-flow: column wrap;
     max-height: 100px;
@@ -297,4 +297,14 @@ div.additional-info__education-university:not(:first-of-type) {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+/* Extra blocks I added */
+.timeline__projects {
+    color: var(--secondary-text-color);
+
+}
+
+.timeline__projects ol > li span:not(:last-child)::after {
+    content: " -----";
 }
