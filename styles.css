@@ -308,3 +308,7 @@ div.additional-info__education-university:not(:first-of-type) {
 .timeline__projects ol > li span:not(:last-child)::after {
     content: " -----";
 }
+
+.timeline__projects ol {
+    max-height: 500px;
+}
