@@ -29,6 +29,11 @@ body {
     justify-content: space-between;
 }
 
+.fh .experiences {
+    /* flex-basis: 20px; */
+    max-width: 120px;
+}
+
 .fv {
     display: flex;
     flex-direction: column;
@@ -173,6 +178,14 @@ body {
     text-align: justify;
 }
 
+.skills ul {
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 100px;
+    padding: 0 60px;
+    column-gap: 40px;
+}
+
 
 /* Experience and additional info styles */
 .experiences {
@@ -253,6 +266,10 @@ body {
 
 .additional-info__education-university-name {
     color: var(--secondary-text-color);
+}
+
+.additional-info__education-university-notes {
+    color: var(--secondary-text-color)
 }
 
 .additional-info__languages {
