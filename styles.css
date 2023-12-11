@@ -72,6 +72,11 @@ body {
     .experiences {
         margin-right: 0;
     }
+
+    .skills ul.skills__text {
+        flex-flow: column nowrap;
+        max-height:fit-content;
+    }
 }
 
 
@@ -241,6 +246,10 @@ body {
     flex: 1 1 40%;
 }
 
+.additional-info .fh > * {
+    margin-right: 20px;
+}
+
 .additional-info__education {
     margin-bottom: 20px;
 }
@@ -249,6 +258,10 @@ body {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
+}
+
+div.additional-info__education-university:not(:first-of-type) {
+    margin-top: 20px;
 }
 
 .additional-info__education-university-durability {
