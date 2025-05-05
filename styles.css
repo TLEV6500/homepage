@@ -112,6 +112,9 @@ body {
   width: 20px;
   display: flex;
   justify-content: center;
+  & img {
+    opacity: 70%;
+  }
 }
 
 .contact-info__item-icon path {
@@ -222,16 +225,21 @@ body {
 
 .additional-info {
   flex: 1 1 40%;
+  flex-direction: column;
+  justify-content: start;
 }
 
 .additional-info__education {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   margin-bottom: 20px;
 }
 
 .additional-info__education-header {
   color: var(--secondary-text-color);
   text-align: left;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .additional-info__education-university-durability {
@@ -263,4 +271,10 @@ body {
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+}
+
+.additional-info__jokes-header {
+  color: var(--secondary-text-color);
+  text-align: left;
+  margin-bottom: 20px;
 }
