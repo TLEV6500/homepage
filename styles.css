@@ -112,6 +112,9 @@ body {
   width: 20px;
   display: flex;
   justify-content: center;
+  & img {
+    opacity: 70%;
+  }
 }
 
 .contact-info__item-icon path {
